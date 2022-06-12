@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="15dp"
+    android:background="@color/bckghome"
+    >
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="200dp"
+        android:id="@+id/pb_category"
+        android:visibility="gone"
+        />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card_category"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:backgroundTint="@color/cardview_light_background"
+        android:outlineAmbientShadowColor="@color/black"
+        android:outlineSpotShadowColor="@color/black"
+        app:cardCornerRadius="8dp">
+
+
+        <ImageView
+            android:id="@+id/img_category"
+            android:layout_width="150dp"
+            android:layout_height="90dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/border_textbox"
+            android:paddingRight="5dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/default_image" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/edtext_coverimg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@id/img_category"
+            android:layout_marginTop="50dp"
+            android:layout_toRightOf="@id/img_category"
+            android:text="Upload cover photo"
+            android:layout_marginLeft="170dp"
+            android:textColor="@color/black"
+            android:textSize="15dp" />
+
+        <EditText
+            android:id="@+id/txtcategory_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/img_category"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="120dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/border_textbox"
+            android:hint="Enter category name"
+            android:textColor="@color/black"
+            android:textColorHint="@color/grey" />
+    </androidx.cardview.widget.CardView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/card_category"
+        android:weightSum="2"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        >
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="22dp"
+            android:text="Add"
+            android:textAlignment="center"
+            android:layout_weight="1"
+            android:id="@+id/txtaddcategory"
+            android:textColor="@color/teal_700"
+            />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/txtcancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:text="Cancel"
+            android:textColor="@color/teal_700"
+            android:textSize="22dp" />
+
+
+    </LinearLayout>
+</RelativeLayout>

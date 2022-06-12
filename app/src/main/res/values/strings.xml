@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">Bookworm</string>
+    <string name="lbltitle">Bookworm</string>
+    <string name="caption1">your local library</string>
+    <string name="caption2">Find Your Next Great Read!</string>
+    <string name="title_activity_home">Home</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+
+    <string name="logintext1">Sign in \nto continue</string>
+    <string name="logintext2">Signin to continue</string>
+
+    <string name="hintusername">Email or Username</string>
+    <string name="hintpassword">Password</string>
+
+    <string name="textlogin">LOGIN</string>
+    <string name="forgotpassword">Forgot password?</string>
+    <string name="donthavepassword">Don\'t have an account?</string>
+    <string name="signupclick">SignUp</string>
+
+
+    <string name="signuptext1">Signup and \nget started</string>
+
+    <string name="Adventure">Adventure</string>
+    <string name="Biography">Biography</string>
+    <string name="Children">Children</string>
+    <string name="Fiction">Fiction</string>
+    <string name="Mystery">Mystery</string>
+    <string name="History">History</string>
+    <string name="Motivational">Motivational</string>
+    <string name="Novels">Novels</string>
+    <string name="Plays">Plays</string>
+    <string name="ScienceFiction">Science Fiction</string>
+
+    <string name="msg">Make sure to \nclick on save changes \nto update \nprofile details</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>
